@@ -7,9 +7,6 @@ repos:
     - id: puppet-lint
       args:
         -   --fail-on-warnings
-    - id: puppet-validate
-    - id: r10k-validate
-    - id: ruby-validate
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v2.3.0
     hooks:
